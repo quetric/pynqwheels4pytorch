@@ -1,5 +1,5 @@
 # PYNQ Wheels for PyTorch
-This is a collection of wheels for PyTorch and Torchvision build on top of PYNQ images. As opposed to most other PyTorch wheels for ARM, ours provide support for `torch.distributed`
+This is a collection of wheels for PyTorch and Torchvision build on top of [PYNQ](https://github.com/Xilinx/PYNQ) images. As opposed to most other PyTorch wheels for ARM, ours provide support for `torch.distributed`
 
 # Prerequisites
 All wheels are built in a chroot environment on Ubuntu, using the PYNQ-provided Qemu static binary for aarch64. This flow has been tested on Ubuntu 16.04 and 18.04. Install host-side requirements with:
